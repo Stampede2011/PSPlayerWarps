@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "PSPlayerWarps",
+    "name": "PSPlayerWarps",
+    "description": "Player Warping System for the PokeSkies Network",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://pokeskies.com",
+    "updateUrl": "",
+    "authorList": [
+      "Stampede2011"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

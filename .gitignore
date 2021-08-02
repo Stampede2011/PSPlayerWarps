@@ -1,0 +1,7 @@
+/build/
+/libs/
+/.idea/
+/.gradle/
+/.git/
+/.gitattributes/
+.gradle

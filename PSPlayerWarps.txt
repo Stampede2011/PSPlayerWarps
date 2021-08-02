@@ -1,0 +1,47 @@
+config {
+    messages {
+        PREFIX="&8(&b&lPlayer Warps&8)"
+    }
+    settings {
+        cooldowns {
+            create-cooldown=60
+            teleport-cooldown=10
+            teleport-warmup=5
+        }
+        economy {
+            create-cost=100.0
+            enabled=true
+        }
+        icons {
+            dirt {
+                id="minecraft:dirt"
+                lore=[
+                    "Example Lore 1",
+                    "Example Lore 2"
+                ]
+                name="Dirt Block"
+                permission="psplayerwarps.icon.dirt"
+                position=1
+            }
+        }
+    }
+}
+
+storage {
+    warps {
+        "Example Warp" {
+            description=""
+            owner="c9322b75-3ab6-41b6-8b5c-ee15cfd9144d"
+            icon="minecraft:dirt"
+            location {
+                world="world"
+                x=0.0
+                y=100.0
+                z=0.0
+            }
+            likes=[
+                ""
+            ]
+        }
+    }
+}
